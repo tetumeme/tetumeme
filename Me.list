@@ -1,0 +1,8 @@
+#轻视屏网站
+HOST-SUFFIX,hflsjx.com, proxy
+HOST-SUFFIX,bilibili.com, proxy
+HOST-SUFFIX,biliapi.com, proxy
+HOST-SUFFIX,hdslb.com, proxy
+host-suffix, pstatp.com, proxy
+host-suffix, ycshengwang.com, proxy
+host, shu6.y.qq.com, direct
