@@ -1,0 +1,45 @@
+#1. 58同城vip
+^https:\//passport.58.com\/58\/user/\info url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/58/infor.js
+^https:\//app.58.com\/api\/ucenter\/v2\/index url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/58/index.js
+
+#2. 酷我音乐SVIP (By yxiaocai)
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/kuwo.js
+
+#3. WPS (By eHpo)
+^https://account.wps.cn/api/users/ url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/wps.js
+
+#4. 网易蜗牛读书VIP (By yxiaocai and JO2EY)
+^https?://p\.du\.163\.com/readtime/info.json url reject
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/wnyd.js
+
+#5. Emby解锁vip
+^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embycrack.js
+
+#6. WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)
+^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+
+#7. 财新周刊 解锁会员文章（by公众号墨鱼手记）
+http://ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
+
+#8. 解锁百度云盘会员（byddgksf2013）
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
+#百度云盘解锁视频在线播放和倍速(by nobyda)
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+
+#9. 樊登读书解锁付费书籍(少年歌行pro製作，轉載請保留出處信息)
+^https:\/\/gateway-api.*.com\/innovation-orchestration\/api\/ebook\/v100\/ebookInfo url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/fdds/sngxfd.js
+#樊登读书解锁付费课程(少年歌行pro製作，轉載請保留出處信息)
+^https:\/\/api.dushu365.com\/* url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/fdds/sngxfdkc.js
+^https:\/\/gateway-api.*.com(\/resource-orchestration-system\/knowledge\/v100\/mainList|\/resource-orchestration-system\/program\/content) url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/fdds/sngxfdkc.js
+
+#19. 酷我音乐vip解锁（by nobyda）
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=2
+
+#11. keep解锁vip（（仅针对Keep版本号6.24-6.27的版本）
+https://api.gotokeep.com/(.+/subject|.+/dynamic|.+/coursePlus/.+|.+/status|.+/tab|.+/my|.+/start|.+/join|.+/complete|.+/detail/.+|.+/preview|.+/auth|.+/tab|.+/days) url script-response-body https://raw.githubusercontent.com/photonmang/quantumultX/master/keep.js
+
+#12. 网易蜗牛读书解锁会员（by nobyda）
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+
+hostname = passport.58.com,vip1.kuwo.cn,account.wps.cn,p.du.163.com,mb3admin.com,account.wps.*,ipadcms.caixin.com,pan.baidu.com,gateway-api.*.com,api.dushu365.com,musicpay.kuwo.cn,api.gotokeep.com
