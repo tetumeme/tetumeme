@@ -30,4 +30,7 @@ DOMAIN-SUFFIX,fvs.io
 DOMAIN-SUFFIX,ytimg.com
 # Google修正
 DOMAIN-SUFFIX,ettoday.net
-host-keyword,tiktok*
+
+DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
