@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,jgg18.xyz
+host-keyword,jgg18
 #小黄油网站
 DOMAIN-SUFFIX,feedx.net
 #华尔街日报官网
@@ -6,5 +6,5 @@ DOMAIN-SUFFIX,iosapps.itunes.apple.com
 #苹果下载
 DOMAIN-SUFFIX,jable.tv
 #🔞
-host-keyword,github.com
+host-keyword,github
 #github网站
