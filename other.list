@@ -6,3 +6,5 @@ DOMAIN-SUFFIX,iosapps.itunes.apple.com
 #苹果下载
 DOMAIN-SUFFIX,jable.tv
 #🔞
+host-keyword,github.com
+#github网站
