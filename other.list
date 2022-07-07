@@ -8,4 +8,5 @@ DOMAIN-SUFFIX,jable.tv
 #🔞
 host-keyword,github
 #github网站
-
+host-keyword,wikipedia
+#维基百科
